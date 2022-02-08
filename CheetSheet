@@ -1,0 +1,6 @@
+After Effects Typescript Cheetsheet
+
+//Create Folder On Pc
+    var f = new Folder('/c/LOCOOCOCOCOC/');
+    if (!f.exists)
+        f.create();
