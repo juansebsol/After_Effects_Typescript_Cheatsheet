@@ -4,3 +4,7 @@ After Effects Typescript Cheetsheet
     var f = new Folder('/c/LOCOOCOCOCOC/');
     if (!f.exists)
         f.create();
+        
+//Look for folder on pc and assign it to a variable
+var folder = new Folder;
+folder = folder.selectDlg("Please select a folder");
